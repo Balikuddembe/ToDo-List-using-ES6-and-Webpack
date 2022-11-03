@@ -1,7 +1,7 @@
 {
   "name": "todo-list-using-es6-and-webpack",
   "version": "1.0.0",
-  "description": "",
+  "description": "> To-Do List is a simple yet very helpful project to keep track of your daily/weekly activities.",
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -40,5 +40,6 @@
   },
   "dependencies": {
     "lodash": "^4.17.21"
-  }
+  },
+  "main": "webpack.config.js"
 }
