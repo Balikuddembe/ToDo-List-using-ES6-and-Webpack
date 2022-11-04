@@ -4,7 +4,7 @@
   "description": "> To-Do List is a simple yet very helpful project to keep track of your daily/weekly activities.",
   "private": true,
   "scripts": {
-    "deploy": "gh-pages -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
     "start": "webpack serve --open"
   },
@@ -15,7 +15,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "home":"https://balikuddembe.github.io/ToDo-List-using-ES6-and-Webpack/",
   "bugs": {
     "url": "https://github.com/Balikuddembe/ToDo-List-using-ES6-and-Webpack/issues"
   },
