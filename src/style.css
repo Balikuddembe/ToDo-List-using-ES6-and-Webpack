@@ -114,3 +114,42 @@ form {
   border-bottom: 0.6px solid rgb(216, 216, 216);
   border-left: none;
 }
+
+.todo-edit {
+  border: none;
+}
+
+form input[type='text'] {
+  border: none;
+  font-style: italic;
+  width: 15%;
+  padding: 1%;
+}
+
+input[type='text']:focus {
+  outline: none;
+}
+
+.todo-item {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+}
+
+.todo-item:not(:last-child) {
+  border-bottom: 1px solid var(--gray-color);
+}
+
+.remove-btn {
+  cursor: pointer;
+  background: none;
+  outline: none;
+  border: none;
+}
+
+.remove-btn:hover {
+  opacity: 0.5;
+}
