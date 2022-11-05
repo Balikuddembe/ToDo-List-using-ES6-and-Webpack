@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-`https://balikuddembe.github.io/ToDo-List-using-ES6-and-Webpack/`
+[Live Demo](https://balikuddembe.github.io/ToDo-List-using-ES6-and-Webpack/dist/index.html)
 
 ## Getting Started
 
