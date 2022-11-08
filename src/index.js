@@ -5,6 +5,8 @@ import AddToDoList from './addRemoveTask.js';
 const taskList = new AddToDoList();
 displayTasks(taskList);
 
+// functions
+
 const addTodoBtn = document.getElementById('addTask');
 addTodoBtn.addEventListener('click', () => {
   const id = `id${Math.random().toString(16).slice(2)}`;
